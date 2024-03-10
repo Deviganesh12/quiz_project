@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Registration</title>
+    <style>
+      body {
+        background-color: rgba(0, 0, 0, 0.904);
+        padding: 0;
+        margin: 0;
+        display: flex;
+        width: 100vw;
+        height: 90vh;
+        justify-content: center;
+        align-items: center;
+      }
+      form {
+        padding: 10px;
+        color: white;
+        background-color: aqua;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0px;
+        background-image: url("bg1.jpg");
+        background-size: cover;
+      }
+    </style>
+    <script>
+      function sub() {
+        var n = document.getElementById("name").value;
+        localStorage.setItem("uname", n);
+        window.location.href = "quizht.html";
+      }
+    </script>
+  </head>
+  <body>
+    <form style="text-align: center" name="f" action="quizht.html">
+      <h3>Enter your name & Click on submit to play the Quiz</h3>
+      Name :
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter Your Name"
+      /><br /><br />
+      <input type="submit" name="click" onclick="sub()" value="submit" />
+    </form>
+  </body>
+</html>
