@@ -11,7 +11,9 @@ quizht.html:
 - You need to choose an option for every question.
 - If the selected option is correct, your background changes to GREEN , otherwise changes to RED.
 - After completing all the questions, you can restart the quiz with same questions displaying randomly.
+  
 quizcs.css:
 - This styles the page with the required properties(like background-color,width,padding etc.)
+  
 quizjs.js:
 - This provides dynamic content & interactivity for the static pages (like bgcolor changing, questions changing etc.)
