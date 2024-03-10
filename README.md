@@ -2,9 +2,11 @@
 This is a simple quiz app in which you're given 5 repeated questions(with options) randomly.
 
 ### CODES:
+
 quizform.html:
 - This outputs a simple Form in which you need to enter your name & click on submit.
 - You'll be redirected to another page.
+  
 quizht.html:
 - This contains a button displaying some text with your name entered in previous page.
 - Clicking on that button, you can start playing the quiz.
